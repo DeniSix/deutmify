@@ -1,6 +1,6 @@
 # deUTMify
 
-Simple library for cleaning up URL's from analytics shit.
+Simple library for cleaning up URL's from analytics shit on client side.
 
 ## Usage
 
@@ -12,6 +12,12 @@ Simple library for cleaning up URL's from analytics shit.
 ```
 
 or use with module loaders.
+
+## API
+
+* `.cleanup()` - just do it
+
+* `.cleanUrl()` - Get clean URL
 
 ## License
 
