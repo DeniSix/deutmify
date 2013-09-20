@@ -47,6 +47,7 @@
         break;
       }
     }
+    if (location.hash.indexOf('?') > hashPrefix) hashPrefix = location.hash.indexOf('?') + 1;
 
     hash = location.hash.slice(hashPrefix).split('&');
 
