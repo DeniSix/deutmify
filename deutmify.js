@@ -61,7 +61,7 @@
     if (hash.length) url += location.hash.substr(0, hashPrefix) + hash.join('&');
 
     return url;
-  };
+  }
 
   /**
    * Cleanup URL in address bar.
@@ -72,8 +72,8 @@
     if (!history) return false;
     history.replaceState(history.state, document.title, cleanUrl());
     return true;
-  };
+  }
 
-  exports.cleanUrl = cleanUrl;
+  exports.url = cleanUrl;
   exports.cleanup = cleanup;
 }));

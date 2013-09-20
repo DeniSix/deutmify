@@ -17,7 +17,7 @@ or use with module loaders.
 
 * `.cleanup()` - just do it
 
-* `.cleanUrl()` - Get clean URL
+* `.url()` - Get clean URL
 
 ## License
 
